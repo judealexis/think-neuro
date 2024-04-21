@@ -38,42 +38,6 @@
   noAlternate={false}
   children={[
     {
-      title: "GALLERY (2024)",
-      orientation: "left",
-      component: TightGallery,
-      prop: [
-        {
-          component: Image,
-          args: "assets/posters/2024/0.png",
-          three: false,
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/1.png",
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/2.png",
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/3.png",
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/4.png",
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/5.png",
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/6.png",
-        },
-      ],
-    },
-    {
       title: "GALLERY (2023)",
       orientation: "left",
       component: JuxtaposeGallery,
