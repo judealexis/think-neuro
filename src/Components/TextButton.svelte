@@ -59,7 +59,7 @@
 <style>
   @font-face {
     font-family: thinkP;
-    src: url("fonts/analogue55regular.ttf");
+    src: url("../fonts/analogue55regular.ttf");
   }
   #internalBtn {
     text-decoration: none;

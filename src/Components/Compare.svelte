@@ -49,11 +49,11 @@
 <style>
   @font-face {
     font-family: thinkSmart;
-    src: url("fonts/yoxallbold.ttf");
+    src: url("../fonts/yoxallbold.ttf");
   }
   @font-face {
     font-family: thinkPs;
-    src: url("fonts/analogue45light.ttf");
+    src: url("../fonts/analogue45light.ttf");
   }
   #compareColumn {
     width: 350px;

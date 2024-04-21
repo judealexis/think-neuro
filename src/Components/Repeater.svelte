@@ -25,7 +25,7 @@
 <style>
   @font-face {
     font-family: thinkLight;
-    src: url("fonts/analogue35thin.ttf");
+    src: url("../fonts/analogue35thin.ttf");
   }
   #background {
     display: flex;

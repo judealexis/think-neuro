@@ -27,7 +27,7 @@
 <style>
   @font-face {
     font-family: thinkP;
-    src: url("fonts/analogue55regular.ttf");
+    src: url("../fonts/analogue55regular.ttf");
   }
   .ctaBtn {
     padding: 5px 70px; /* Increase padding to make the button taller */

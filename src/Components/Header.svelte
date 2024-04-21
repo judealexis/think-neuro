@@ -194,7 +194,7 @@
 <style>
   @font-face {
     font-family: think;
-    src: url("fonts/analogue65medium.ttf");
+    src: url("../fonts/analogue65medium.ttf");
   }
   #downIcon {
     object-fit: fill;

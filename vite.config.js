@@ -18,6 +18,7 @@ export default defineConfig({
             volunteer: 'volunteer.html',
             // Add other HTML files as needed
           }
-        }
+        },
+        assetsInclude: ['**/*.ttf', '**/*.otf']
       }
 })

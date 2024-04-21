@@ -32,11 +32,11 @@
 <style>
   @font-face {
     font-family: thinkHard;
-    src: url("fonts/analogue75bold.ttf");
+    src: url("../fonts/analogue75bold.ttf");
   }
   @font-face {
     font-family: thinkP;
-    src: url("fonts/analogue55regular.ttf");
+    src: url("../fonts/analogue55regular.ttf");
   }
   .description {
     display: flex;

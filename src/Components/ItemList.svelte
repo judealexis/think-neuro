@@ -159,20 +159,20 @@
 <style>
   @font-face {
     font-family: thinkSlick;
-    src: url("fonts/unb_pro_light.otf");
+    src: url("../fonts/unb_pro_light.otf");
   }
   @font-face {
     font-family: thinkP;
-    src: url("fonts/analogue55regular.ttf");
+    src: url("../fonts/analogue55regular.ttf");
   }
 
   @font-face {
     font-family: thinkHard;
-    src: url("fonts/analogue75bold.ttf");
+    src: url("../fonts/analogue75bold.ttf");
   }
   @font-face {
     font-family: thinkFast;
-    src: url("fonts/unb_pro_regular.otf");
+    src: url("../fonts/unb_pro_regular.otf");
   }
   #holder {
     align-items: normal;
