@@ -81,12 +81,12 @@
         }}
         id="arrow"
         fill="black"
-        transform="rotate(90)"
+        width="50"
+        height="50"
+        style="transform: scale(2.5,2.5)"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-        ><path
-          d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"
-        /></svg
+        ><path d="M14 7l-5 5l5 5V7z" fill="black" /></svg
       >
       <div class="inRow" id="testimonialContent">
         {#each imageFiles as image}
@@ -106,12 +106,12 @@
         }}
         id="arrow"
         fill="black"
-        transform="rotate(-90)"
+        width="50"
+        height="50"
+        style="transform: scale(2.5,2.5)"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-        ><path
-          d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"
-        /></svg
+        ><path d="M10 17l5-5l-5-5v10z" fill="black" /></svg
       >
     </div>
     <div id="dotContainer" class="inRow">
