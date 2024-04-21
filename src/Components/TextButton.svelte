@@ -106,6 +106,8 @@
   #click:hover > .inRow > #arrow {
     fill: black;
   }
+  #test {
+  }
   @media (max-width: 600px) {
     #text {
       font-size: 4vw;
