@@ -1,4 +1,4 @@
-import{S as _,i as w,s as k,j as h,a as b,q as a,b as f,r as d,n as g,e as p,A as v,o as m}from"./Repeater-wxO3m-ib.js";function y(s){let t;return{c(){t=m(s[1])},m(e,n){f(e,t,n)},p:g,d(e){e&&p(t)}}}function C(s){let t,e,n,c,l;return{c(){t=m(`Think Neuro offers clinical research projects pertaining to bibliometrics,
+import{S as _,i as w,s as k,j as h,a as b,q as a,b as f,r as d,n as g,e as p,A as v,o as m}from"./Repeater-lVSDAqMT.js";function y(s){let t;return{c(){t=m(s[1])},m(e,n){f(e,t,n)},p:g,d(e){e&&p(t)}}}function C(s){let t,e,n,c,l;return{c(){t=m(`Think Neuro offers clinical research projects pertaining to bibliometrics,
       the study of productivity within medical literature in neuroscience and
       related disciplines. By enrolling in our Clinical Research Internship, you
       will learn how to analyze relevant healthcare data using the R programming
