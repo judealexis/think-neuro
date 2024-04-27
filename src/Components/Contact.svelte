@@ -51,7 +51,11 @@
     </a>
 
     <!-- svelte-ignore a11y-missing-attribute -->
-    <a id="contact" class="inRow" href="mailto:info@thinkneuro.org">
+    <a
+      id="contact"
+      class="inRow"
+      href="https://www.linkedin.com/company/thinkneurousa/"
+    >
       <svg
         id="contactIcon"
         fill="#007BFF"
@@ -71,7 +75,11 @@
     </a>
 
     <!-- svelte-ignore a11y-missing-attribute -->
-    <a id="contact" class="inRow" href="mailto:info@thinkneuro.org">
+    <a
+      id="contact"
+      class="inRow"
+      href="https://www.instagram.com/thinkneuro.usa/"
+    >
       <svg
         id="contactIcon"
         width={viewWidth > 800 ? "20px" : "14px"}
@@ -102,7 +110,7 @@
     </a>
 
     <!-- svelte-ignore a11y-missing-attribute -->
-    <a id="contact" class="inRow" href="mailto:info@thinkneuro.org">
+    <a id="contact" class="inRow" href="http://youtube.com/@ThinkNeuroUSA">
       <svg
         id="contactIcon"
         width={viewWidth > 800 ? "12px" : "10px"}
