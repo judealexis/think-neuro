@@ -60,6 +60,16 @@
             <a href="https://www.instagram.com/thinkneuro.usa/"
               >(thinkneuro.usa).</a
             >
+          {:else if item.answer == "αβε"}
+            At Think Neuro, we care about the experiences of our interns to the
+            greatest extent. We are transparent about past incidents where there
+            may have been a lot of unwanted commotion on our Slack or other
+            social media platforms that have disrupted the experiences of our
+            interns. For the full incidence report, please refer to this
+            <a
+              href="https://drive.google.com/drive/u/1/folders/122rV8GdpaCIKa15QDeqUnGS2S-vENPED"
+              >archive</a
+            >
           {:else}
             {item.answer}
           {/if}

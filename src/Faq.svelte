@@ -44,6 +44,12 @@
           answer: "αβδ",
           isOpen: false,
         },
+        {
+          question:
+            "How does Think Neuro value the integrity of our organization and the experiences of our interns?",
+          answer: "αβε",
+          isOpen: false,
+        },
       ],
     },
   ]}
