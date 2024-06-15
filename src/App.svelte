@@ -16,7 +16,7 @@
       orientation: "left",
       component: TextButton,
       prop: [
-        "Think Neuro is dedicated to combating healthcare disparities in opioid abuse treatment access through policy advocacy, education reform, and technological renovation. Through sponsorship of professional development opportunities and scholarship initiatives, we aim to inspire future healthcare leaders to improve the health of communities often in the periphery of our society. Intersecting collaboration of highly motivated academics with our emphasis on scholarly research, Think Neuro strives to address the racial-ethnic, socioeconomic, and geographic pathways to healthcare access within the United States.",
+        "Think Neuro is dedicated to combating healthcare disparities in opioid abuse treatment access through policy advocacy, education reform, and technological renovation. Through sponsorship of professional development opportunities and scholarship initiatives, we aim to inspire future healthcare leaders to serve the public and improve the health of communities often in the periphery of our society. Our commitment to public service extends beyond streamlining substance abuse campaigns to bridging digital health solutions for opioid use disorder patients and expanding telehealth services for addiction treatment. Intersecting collaboration of highly motivated academics with our emphasis on scholarly research, Think Neuro strives to address the racial-ethnic, socioeconomic, and geographic barriers to healthcare access within the United States.",
         true,
         "click",
         "Learn More",
@@ -28,7 +28,7 @@
       orientation: "center",
       component: TextImage,
       prop: [
-        "We have an aspiration to be better. Our educational outreach and policy initiatives serve to redress centuries of racism, discrimination, and inequity that have plagued the healthcare and education sectors of our society. We have an aspiration to encourage and emphasize student-centered approaches in contemporary education. We have an aspiration to improve the environment in which our learners gain the fundamental skills required to become equity-oriented leaders as future healthcare professionals engaged in public and academic discourse.",
+        "We have an aspiration to be better. Our advocacy initiatives and community-focused research projects serve to redress centuries of racism, discrimination, and inequity that have plagued the healthcare and education sectors of our society. We have an aspiration to foster a sense of belonging, collaboration, and self-empowerment, applying sociocultural models of learning such as Vygotsky's Zone of Proximal Development and Cognitive Apprenticeship. We have an aspiration to improve the environment in which our learners, ranging from the highly academically competent to the academically marginalized, gain fundamental skills required to become equity-oriented leaders engaged in public and academic discourse.",
         "right",
         "assets/mission",
         true,
