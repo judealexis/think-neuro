@@ -4,6 +4,8 @@ let rubric = [
     ["ω", "Ω", "white"],
     ["α", "Α", "black"],
     ["ρ", "Ρ", "break"],
+    ["ι", "Ι", "italic"],
+    ["ν", "Ν", "text"],
   ];
 
 export function interpret(inText) {

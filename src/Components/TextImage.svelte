@@ -38,7 +38,9 @@
       {#if interpretText}
         <div id="smartText" style="text-align: right;">
           {#each processedText as textElem}
-            <span id={textElem.label}>{textElem.text}</span>
+            <span class="reduced_space" id={textElem.label}
+              >{textElem.text}</span
+            >
           {/each}
         </div>
       {:else}
@@ -48,7 +50,9 @@
       {#if interpretText}
         <div id="smartText" style="text-align: left;">
           {#each processedText as textElem}
-            <span id={textElem.label}>{textElem.text}</span>
+            <span class="reduced_space" id={textElem.label}
+              >{textElem.text}</span
+            >
           {/each}
         </div>
       {:else}
@@ -66,6 +70,9 @@
 </main>
 
 <style>
+  .reduced_space {
+    line-height: 1em;
+  }
   #smartText {
     width: 50%;
     font-size: 30px;
@@ -93,9 +100,11 @@
   }
   #text {
     font-size: 23px;
-    text-align: left;
     font-family: thinkP;
-    width: 60%;
+  }
+  #italic {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
   }
   #blue {
     font-family: thinkSmart;
