@@ -1,7 +1,7 @@
 <script>
   export let prop;
 
-  let imageNumber = prop[0];
+  let imageNumber = prop[0] - 1;
   let directory = prop[1];
 
   let pause = false;

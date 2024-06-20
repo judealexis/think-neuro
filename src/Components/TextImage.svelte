@@ -26,7 +26,27 @@
 
 <main>
   <div id={interpretText ? "unSpacedJuxtapose" : "juxtapose"} class="inRow">
-    {#if textPosition == "right"}
+    {#if textPosition == "rightLeft"}
+      <img
+        id={interpretText ? "smartImage" : "image"}
+        src={smartSrc
+          ? image + (viewWidth <= 1100 ? "Stretch.jpeg" : ".jpeg")
+          : image}
+        alt="diversity"
+      />
+
+      {#if interpretText}
+        <div id="smartText" style="text-align: left;">
+          {#each processedText as textElem}
+            <span class="reduced_space" id={textElem.label}
+              >{textElem.text}</span
+            >
+          {/each}
+        </div>
+      {:else}
+        <div id="text">{text}</div>
+      {/if}
+    {:else if textPosition == "right"}
       <img
         id={interpretText ? "smartImage" : "image"}
         src={smartSrc
@@ -133,12 +153,18 @@
     #text {
       font-size: 4vw;
     }
+    #textIt,
+    #italic {
+      font-size: 3vw;
+    }
   }
   @media (max-width: 1100px) {
     #image {
       width: 30%;
     }
-    #text {
+    #text,
+    #italic,
+    #textIt {
       width: 70%;
     }
     #smartText {
