@@ -102,7 +102,12 @@
     font-size: 23px;
     font-family: thinkP;
   }
+  #textIt {
+    font-size: 23px;
+    font-family: "Times New Roman", Times, serif;
+  }
   #italic {
+    font-size: 23px;
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
   }
