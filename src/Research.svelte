@@ -23,7 +23,7 @@
         true,
         "click",
         "Apply",
-        "http://tinyurl.com/su24-thinkneuro",
+        "https://docs.google.com/forms/d/e/1FAIpQLSfjkuE4PrjAQbf3Z_NCLuTwHbG-_xIHn_62DJJrsKCncxCW0Q/viewform",
       ],
     },
     {
