@@ -1,0 +1,14 @@
+import{S as b,i as _,s as C,j as h,a as w,q as a,b as f,r as d,n as g,e as p,A as v,o as m}from"./Repeater-lVSDAqMT.js";function k(s){let t;return{c(){t=m(s[1])},m(e,n){f(e,t,n)},p:g,d(e){e&&p(t)}}}function y(s){let t,e,n,c,l;return{c(){t=m(`Think Neuro offers clinical research projects pertaining to bibliometrics,
+      the study of productivity within medical literature in neuroscience and
+      related disciplines. By enrolling in our Clinical Research Internship, you
+      will learn how to analyze relevant healthcare data using the R programming
+      language and navigate the Web of Science Core Collection (WoSCC) software.
+      All researchers have their names listed on a research poster at our Summer
+      Symposium as well as deliver an oral presentation of their work. If you
+      are a high school or undergraduate student interested in our Summer
+      Research Internship, please watch our free seminar
+      `),e=h("a"),e.textContent="here",n=m(`
+      to gauge if this program is a good fit for you and your career aspirations.
+      If so, please reference this
+      `),c=h("a"),c.textContent="guide",l=m(`
+      created by our staff to fill out the application below.`),a(e,"href","https://www.youtube.com/watch?v=v1k6_G6ecE0"),a(c,"href","https://www.youtube.com/watch?v=FC_UtrEdwYw")},m(r,i){f(r,t,i),f(r,e,i),f(r,n,i),f(r,c,i),f(r,l,i)},p:g,d(r){r&&(p(t),p(e),p(n),p(c),p(l))}}}function j(s){let t,e,n,c,l,r;return{c(){t=h("button"),e=h("a"),n=h("div"),n.textContent=`${s[4]}`,c=w(),l=v("svg"),r=v("path"),a(n,"id","buttonText"),a(n,"class","svelte-1agjckg"),a(r,"fill-rule","evenodd"),a(r,"clip-rule","evenodd"),a(r,"d","M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z"),a(l,"id","arrow"),a(l,"class","icon svelte-1agjckg"),a(l,"viewBox","0 0 24 24"),a(l,"fill","none"),a(l,"xmlns","http://www.w3.org/2000/svg"),a(e,"href",s[0]),a(e,"id","internalBtn"),a(e,"class","inRow svelte-1agjckg"),a(t,"id",s[3]),a(t,"class","svelte-1agjckg")},m(i,o){f(i,t,o),d(t,e),d(e,n),d(e,c),d(e,l),d(l,r)},p(i,o){o&1&&a(e,"href",i[0])},d(i){i&&p(t)}}}function x(s){let t,e,n;function c(o,u){return o[1]=="αβγ"?y:k}let r=c(s)(s),i=s[2]&&j(s);return{c(){t=h("main"),e=h("div"),r.c(),n=w(),i&&i.c(),a(e,"id","text"),a(e,"class","svelte-1agjckg")},m(o,u){f(o,t,u),d(t,e),r.m(e,null),d(t,n),i&&i.m(t,null)},p(o,[u]){r.p(o,u),o[2]&&i.p(o,u)},i:g,o:g,d(o){o&&p(t),r.d(),i&&i.d()}}}function S(s,t,e){let{prop:n}=t,c="#",l=n[0],r=n[1],i=n[2],o=n[3];try{c=n[4]}catch{}return s.$$set=u=>{"prop"in u&&e(5,n=u.prop)},[c,l,r,i,o,n]}class B extends b{constructor(t){super(),_(this,t,S,x,C,{prop:5})}}export{B as T};

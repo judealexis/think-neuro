@@ -25,10 +25,10 @@
       Symposium as well as deliver an oral presentation of their work. If you
       are a high school or undergraduate student interested in our Summer
       Research Internship, please watch our free seminar
-      <a href="https://www.youtube.com/watch?v=WbWk7QHjPBY">here</a>
+      <a href="https://www.youtube.com/watch?v=v1k6_G6ecE0">here</a>
       to gauge if this program is a good fit for you and your career aspirations.
       If so, please reference this
-      <a href="https://youtu.be/BSk8GqzTkRo"> guide </a>
+      <a href="https://www.youtube.com/watch?v=FC_UtrEdwYw"> guide </a>
       created by our staff to fill out the application below.
     {:else}
       {text}
