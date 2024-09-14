@@ -18,13 +18,13 @@
     {#if text == "αβγ"}
       Think Neuro offers clinical research projects pertaining to bibliometrics,
       the study of productivity within medical literature in neuroscience and
-      related disciplines. By enrolling in our Clinical Research Internship, you
-      will learn how to analyze relevant healthcare data using the R programming
-      language and navigate the Web of Science Core Collection (WoSCC) software.
-      All researchers have their names listed on a research poster at our Summer
-      Symposium as well as deliver an oral presentation of their work. If you
-      are a high school or undergraduate student interested in our Summer
-      Research Internship, please watch our free seminar
+      related disciplines. By enrolling in our Student Research Internship
+      Program, you will learn how to analyze relevant healthcare data using the
+      R programming language and navigate the Web of Science Core Collection
+      (WoSCC) software. All researchers have their names listed on a research
+      poster at our Fall Symposium as well as deliver an oral presentation of
+      their work. If you are a high school or undergraduate student interested
+      in our Student Research Internship Program, please watch our free seminar
       <a href="https://www.youtube.com/watch?v=v1k6_G6ecE0">here</a>
       to gauge if this program is a good fit for you and your career aspirations.
       If so, please reference this
