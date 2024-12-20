@@ -50,10 +50,10 @@
             review rounds and encourage early submissions. To gauge
             competitiveness of previous cohorts, please review our <a
               href="https://www.instagram.com/p/DAhkf9rukpv/?img_index=1"
-              >Fall 2023 Internship Admission Statistics.</a
+              >Fall 2024 Internship Admission Statistics.</a
             >
           {:else if item.answer == "αβδ"}
-            You can find past oral and posters presented at the Think Neuro
+            You can find past oral and posters presented at the ThinkNeuro
             Research Symposium under the “Programs” section of our website. For
             research and scholarship testimonials, please follow our social
             media
@@ -61,7 +61,7 @@
               >(thinkneuro.usa).</a
             >
           {:else if item.answer == "αβε"}
-            At Think Neuro, we care about the experiences of our interns to the
+            At ThinkNeuro, we care about the experiences of our interns to the
             greatest extent. We are transparent about past incidents where there
             may have been a lot of unwanted commotion on our Slack or other
             social media platforms that have disrupted the experiences of our

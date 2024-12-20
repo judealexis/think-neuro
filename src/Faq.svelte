@@ -17,7 +17,7 @@
           question:
             "What differentiates ThinkNeuro’s pre-health opportunities?",
           answer:
-            "The main perks of participation in Think Neuro’s programs include authorship on scholarly publications from research-based internships and academic scholarships from Medical Hackathon participation. For more information, please refer to the “Programs” section of our website.",
+            "The main perks of participation in ThinkNeuro’s programs include authorship on scholarly publications from research-based internships and academic scholarships from Medical Hackathon participation. For more information, please refer to the “Programs” section of our website.",
           isOpen: false,
         },
         {
