@@ -75,11 +75,7 @@
     </a>
 
     <!-- svelte-ignore a11y-missing-attribute -->
-    <a
-      id="contact"
-      class="inRow"
-      href="https://www.instagram.com/thinkneuro.usa/"
-    >
+    <a id="contact" class="inRow" href="http://instagram.com/thinkneuro">
       <svg
         id="contactIcon"
         width={viewWidth > 800 ? "20px" : "14px"}
@@ -106,7 +102,7 @@
           fill="#007BFF"
         />
       </svg>
-      thinkneuro.usa
+      ThinkNeuro
     </a>
 
     <!-- svelte-ignore a11y-missing-attribute -->
@@ -146,7 +142,7 @@
         </g>
       </svg>
       <div id="hrefTxt"></div>
-      @ThinkNeuroUSA
+      ThinkNeuroUSA
     </a>
   </div>
 </main>
