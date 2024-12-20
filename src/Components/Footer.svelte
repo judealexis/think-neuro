@@ -4,7 +4,7 @@
 
 <main>
   <div class:fixed={locked} id="footer">
-    <div id="item">© Think Neuro 2024-2025</div>
+    <div id="item">© ThinkNeuro 2024-2025</div>
     <a id="item" href="privacy.pdf">Privacy</a>
     <a id="item" href="tos.pdf">Terms of Service</a>
   </div>

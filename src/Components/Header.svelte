@@ -180,7 +180,7 @@
     <div id="header">
       <img id="logo" src="assets/logo.png" alt="logo" />
       <div id="titleHolder" class="inColumn">
-        <div class="title">Think Neuro,</div>
+        <div class="title">ThinkNeuro,</div>
 
         <div class="inRow">
           <div class="title">Think {typedText}</div>

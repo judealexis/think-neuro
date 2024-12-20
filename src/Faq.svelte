@@ -15,13 +15,13 @@
       prop: [
         {
           question:
-            "What differentiates Think Neuro’s pre-health opportunities?",
+            "What differentiates ThinkNeuro’s pre-health opportunities?",
           answer:
-            "The main perks of participation in Think Neuro’s programs include authorship on scholarly publications from research-based internships and cademic scholarships from Medical Hackathon participation. For more information, please refer to the “Programs” section of our website.",
+            "The main perks of participation in Think Neuro’s programs include authorship on scholarly publications from research-based internships and academic scholarships from Medical Hackathon participation. For more information, please refer to the “Programs” section of our website.",
           isOpen: false,
         },
         {
-          question: "When does Think Neuro open applications for all programs?",
+          question: "When does ThinkNeuro open applications for all programs?",
           answer:
             "Internship applications are open and accessible twice a year in the Fall and Spring. Clinical research applications are open and accessible twice a year in the Winter and Summer. Medical Hackathon applications are live in November.",
           isOpen: false,
@@ -40,13 +40,13 @@
         },
         {
           question:
-            "What are past examples of Think Neuro research and internship cohorts?",
+            "What are past examples of ThinkNeuro research and internship cohorts?",
           answer: "αβδ",
           isOpen: false,
         },
         {
           question:
-            "How does Think Neuro value the integrity of our organization and the experiences of our interns?",
+            "How does ThinkNeuro value the integrity of our organization and the experiences of our interns?",
           answer: "αβε",
           isOpen: false,
         },

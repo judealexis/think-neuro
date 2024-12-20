@@ -181,7 +181,7 @@
           true,
           "click",
           "Apply",
-          "https://docs.google.com/forms/d/e/1FAIpQLSfmlztEq3Dxs5t5Ht7MkuY6C8s6LF3Y3SCK3gvDzTZvU1UAcw/closedform",
+          "https://docs.google.com/forms/d/e/1FAIpQLSfaGQGwgbRma6smf8XtuUar6PQIvSa9xd2zKc3uz2E1s5u1gg/viewform",
         ],
       },
       {

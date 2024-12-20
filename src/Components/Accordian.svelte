@@ -49,7 +49,7 @@
             All applications are reviewed periodically. We typically have two
             review rounds and encourage early submissions. To gauge
             competitiveness of previous cohorts, please review our <a
-              href="https://www.instagram.com/p/CyT3kuyvMLX/?img_index=1"
+              href="https://www.instagram.com/p/DAhkf9rukpv/?img_index=1"
               >Fall 2023 Internship Admission Statistics.</a
             >
           {:else if item.answer == "αβδ"}
