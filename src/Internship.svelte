@@ -194,7 +194,7 @@
         title: "STUDENT TESTIMONIALS",
         orientation: "center",
         component: Carousel,
-        prop: [3, "assets/testimonials/internship/"],
+        prop: [4, "assets/testimonials/internship/"],
       },
     ]}
   />
