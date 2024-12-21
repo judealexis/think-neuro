@@ -177,7 +177,7 @@
         orientation: "left",
         component: TextButton,
         prop: [
-          "Think Neuro offers research-based internships with topics encompassing health technology, health education, and health policy. Accepted interns are able to choose the rotation of their choice.",
+          "ThinkNeuro offers research-based internships with topics encompassing health technology, health education, and health policy. Accepted interns are able to choose the rotation of their choice.",
           true,
           "click",
           "Apply",

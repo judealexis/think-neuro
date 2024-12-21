@@ -56,18 +56,18 @@
       href: "#",
       children: [
         { name: "Volunteer", href: "/volunteer" },
-        { name: "Internships", href: "/internship" },
+        { name: "Internship", href: "/internship" },
         { name: "Research", href: "/research" },
       ],
     },
-    {
-      name: "Articles",
-      href: "#",
-      children: [
-        { name: "Newsletter", href: "/newsletter" },
-        { name: "Resources", href: "https://think-neuro.ck.page/profile" },
-      ],
-    },
+    // {
+    //   name: "Articles",
+    //   href: "#",
+    //   children: [
+    //     { name: "Newsletter", href: "/newsletter" },
+    //     { name: "Resources", href: "https://think-neuro.ck.page/profile" },
+    //   ],
+    // },
     { name: "FAQs", href: "/faq", children: [] },
   ];
 </script>

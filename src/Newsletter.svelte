@@ -25,7 +25,7 @@
     <div id="title">Every Moment is a Chance to Achieve</div>
     <div id="subTitle">
       <span id="subNormal">A weekly newsletter curated by </span>
-      <span id="subEmph">Think Neuro</span>
+      <span id="subEmph">ThinkNeuro</span>
     </div>
   </div>
   <div id="infoBlock"></div>
@@ -45,7 +45,7 @@
     {
       component: TextImage,
       prop: [
-        "αWe are invested in theΑ ε achievementsΕ α andΑ ε admissions Ε αsuccess of our pre-medical and pre-health students at Think Neuro.Α",
+        "αWe are invested in theΑ ε achievementsΕ α andΑ ε admissions Ε αsuccess of our pre-medical and pre-health students at ThinkNeuro.Α",
         "right",
         "assets/checkMan.png",
         false,
@@ -55,7 +55,7 @@
     {
       component: TextImage,
       prop: [
-        "αWe are invested in theΑ ε achievementsΕ α andΑ ε admissions Ε αsuccess of our pre-medical and pre-health students at Think Neuro.Α",
+        "αWe are invested in theΑ ε achievementsΕ α andΑ ε admissions Ε αsuccess of our pre-medical and pre-health students at ThinkNeuro.Α",
         "left",
         "assets/boxCheck.png",
         false,
@@ -78,7 +78,7 @@
     {
       component: TextAlone,
       prop: [
-        "βEvery Friday...Β ρ Ρ α The executive team at Think Neuro releases Α εhand-picked resources and services Ε αwith a track record for admissions success.Α ρ Ρ α So you Α εnever need to worry Ε αabout missing resources or falling behind in your educational ambitions.Α",
+        "βEvery Friday...Β ρ Ρ α The executive team at ThinkNeuro releases Α εhand-picked resources and services Ε αwith a track record for admissions success.Α ρ Ρ α So you Α εnever need to worry Ε αabout missing resources or falling behind in your educational ambitions.Α",
         "left",
       ],
     },

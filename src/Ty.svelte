@@ -79,7 +79,7 @@
     {
       component: TextAlone,
       prop: [
-        "βThink Neuro Referral ProgramΒ ρ Ρ α We want to provide our resources to as many people as possible, Α ε students and parents alike. Ε ρ Ρ α When you help us in our mission by sharing your unique referral link, we'll send you Α εfree stuff! Ε ρ Ρ αEach week, you'll see what Α εrewards you can claim Ε α when you share our newsletter with friends and family that join our newsletter!Α",
+        "βThinkNeuro Referral ProgramΒ ρ Ρ α We want to provide our resources to as many people as possible, Α ε students and parents alike. Ε ρ Ρ α When you help us in our mission by sharing your unique referral link, we'll send you Α εfree stuff! Ε ρ Ρ αEach week, you'll see what Α εrewards you can claim Ε α when you share our newsletter with friends and family that join our newsletter!Α",
         "left",
       ],
     },
@@ -92,7 +92,7 @@
           points: [
             "Premium Guide to Starting Your Own Nonprofit",
             "Executive Coaching Session",
-            "Think Neuro Merchandise",
+            "ThinkNeuro Merchandise",
             "Discounts for Speciality Services",
             "And Much More!",
           ],

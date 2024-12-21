@@ -16,7 +16,7 @@
 <main>
   <div id="text">
     {#if text == "αβγ"}
-      Think Neuro offers clinical research projects pertaining to bibliometrics,
+      ThinkNeuro offers clinical research projects pertaining to bibliometrics,
       the study of productivity within medical literature in neuroscience and
       related disciplines. By enrolling in our Student Research Internship
       Program, you will learn how to analyze relevant healthcare data using the

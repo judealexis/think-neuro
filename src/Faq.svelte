@@ -22,8 +22,7 @@
         },
         {
           question: "When does ThinkNeuro open applications for all programs?",
-          answer:
-            "Internship applications are open and accessible twice a year in the Fall and Spring. Clinical research applications are open and accessible twice a year in the Winter and Summer. Medical Hackathon applications are live in November.",
+          answer: "αβζ",
           isOpen: false,
         },
         {

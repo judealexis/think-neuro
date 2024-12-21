@@ -57,9 +57,7 @@
             Research Symposium under the “Programs” section of our website. For
             research and scholarship testimonials, please follow our social
             media
-            <a href="https://www.instagram.com/thinkneuro.usa/"
-              >(thinkneuro.usa).</a
-            >
+            <a href="https://www.instagram.com/thinkneuro.usa/">ThinkNeuro</a>
           {:else if item.answer == "αβε"}
             At ThinkNeuro, we care about the experiences of our interns to the
             greatest extent. We are transparent about past incidents where there
@@ -70,6 +68,12 @@
               href="https://drive.google.com/drive/u/1/folders/122rV8GdpaCIKa15QDeqUnGS2S-vENPED"
               >archive</a
             >
+          {:else if item.answer == "αβζ"}
+            You can view interns who've participated in our hackathons <a
+              href="https://www.instagram.com/p/C0-mmZgrmcZ/?img_index=1"
+              >here</a
+            >, all of whom are legally listed as inventors on the provisional
+            patents that ThinkNeuro files.
           {:else}
             {item.answer}
           {/if}
