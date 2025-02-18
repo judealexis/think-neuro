@@ -51,13 +51,13 @@
   let pages = [
     { name: "Home", href: "/index", children: [] },
     { name: "About", href: "/about", children: [] },
+    { name: "Volunteer", href: "/volunteer" },
     {
-      name: "Programs",
+      name: "Research",
       href: "#",
       children: [
-        { name: "Volunteer", href: "/volunteer" },
-        { name: "Internship", href: "/internship" },
-        { name: "Research", href: "/research" },
+        { name: "Bibliometrics", href: "/research" },
+        { name: "Other", href: "/internship" },
       ],
     },
     // {

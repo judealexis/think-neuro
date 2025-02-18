@@ -1,4 +1,4 @@
-import{S as b,i as _,s as k,j as h,a as w,q as i,b as f,r as d,n as m,e as p,A as v,o as g}from"./Repeater-D3WpoXFL.js";function y(s){let t;return{c(){t=g(s[1])},m(e,n){f(e,t,n)},p:m,d(e){e&&p(t)}}}function C(s){let t,e,n,c,o;return{c(){t=g(`ThinkNeuro offers clinical research projects pertaining to bibliometrics,
+import{S as b,i as _,s as k,j as h,a as w,q as i,b as f,r as d,n as m,e as p,A as v,o as g}from"./Repeater-pRrshk_g.js";function y(s){let t;return{c(){t=g(s[1])},m(e,n){f(e,t,n)},p:m,d(e){e&&p(t)}}}function C(s){let t,e,n,c,o;return{c(){t=g(`ThinkNeuro offers clinical research projects pertaining to bibliometrics,
       the study of productivity within medical literature in neuroscience and
       related disciplines. By enrolling in our Student Research Internship
       Program, you will learn how to analyze relevant healthcare data using the
