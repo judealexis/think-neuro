@@ -1,4 +1,5 @@
 <script>
+  import { interpret } from "./interpreter.js";
   export let prop;
 </script>
 
@@ -44,44 +45,17 @@
         style={item.isOpen ? "height: fit-content;" : "height: 0px;"}
         class="accordion-content"
       >
-        <p>
-          {#if item.answer == "αβγ"}
-            All applications are reviewed periodically. We typically have two
-            review rounds and encourage early submissions. To gauge
-            competitiveness of previous cohorts, please review our <a
-              href="https://www.instagram.com/p/DAhkf9rukpv/?img_index=1"
-              >Fall 2024 Internship Admission Statistics.</a
-            >
-          {:else if item.answer == "αβδ"}
-            You can find past oral and posters presented at the ThinkNeuro
-            Research Symposium under the “Programs” section of our website. For
-            research and scholarship testimonials, please follow our social
-            media
-            <a href="http://instagram.com/thinkneuro">@thinkneuro</a>
-          {:else if item.answer == "αβε"}
-            At ThinkNeuro, we care about the experiences of our interns to the
-            greatest extent. We are transparent about past incidents where there
-            may have been a lot of unwanted commotion on our Slack or other
-            social media platforms that have disrupted the experiences of our
-            interns. For the full incidence report, please refer to this
-            <a
-              href="https://drive.google.com/drive/u/1/folders/122rV8GdpaCIKa15QDeqUnGS2S-vENPED"
-              >archive</a
-            >
-          {:else if item.answer == "αβζ"}
-            Internship applications are open and accessible twice a year in the
-            Fall and Spring. Clinical research applications are open and
-            accessible twice a year in the Winter and Summer. Medical Hackathon
-            applications are live in November. You can view interns who've
-            participated in our hackathons <a
-              href="https://www.instagram.com/p/C0-mmZgrmcZ/?img_index=1"
-              >here</a
-            >, all of whom are legally listed as inventors on the provisional
-            patents that ThinkNeuro files.
+        {#each interpret(item.answer) as textElem}
+          {#if textElem.label == "break"}
+            <br />
+          {:else if textElem.label == "link"}
+            <a href={textElem.text.split("θ")[0]}>
+              {textElem.text.split("θ")[1]}
+            </a>
           {:else}
-            {item.answer}
+            <span id={textElem.label}>{textElem.text}</span>
           {/if}
-        </p>
+        {/each}
       </div>
     </div>
   {/each}
@@ -114,8 +88,9 @@
     margin: 0px;
   }
   .accordion-content {
-    padding: 0px;
+    padding: 00px;
     margin: 0px;
+    line-height: 1.8;
     overflow: hidden;
     width: 80%;
     font-size: 15px;

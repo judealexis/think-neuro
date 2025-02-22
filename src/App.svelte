@@ -31,8 +31,7 @@
         "νWe have an aspiration to be better. Our advocacy initiatives and community-focused research projects serve to redress centuries of racism, discrimination, and inequity that have plagued the healthcare and education sectors of our society. We have an aspiration to foster a sense of belonging, collaboration, and self-empowerment, applying sociocultural models of learning such asΝ ι Vygotsky's Zone of Proximal Development Ι νandΝ ι Cognitive ApprenticeshipΙν. We have an aspiration to improve the environment in which our learners, ranging from the highly academically competent to the academically marginalized, gain fundamental skills required to become equity-oriented leaders engaged in public and academic discourse.Ν",
         "rightLeft",
         "assets/mission",
-        true,
-        true,
+        false,
       ],
     },
     {

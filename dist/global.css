@@ -1,3 +1,20 @@
+@font-face {
+    font-family: think;
+    src: url("../fonts/analogue65medium.ttf");
+  }
+  @font-face {
+    font-family: thinkBold;
+    src: url("../fonts/yoxallbold.ttf");
+  }
+  @font-face {
+    font-family: thinkSlick;
+    src: url("../fonts/unb_pro_light.otf");
+  }
+  @font-face {
+    font-family: thinkPs;
+    src: url("../fonts/analogue45light.ttf");
+  }
+
 html, body {
 	position: relative;
 	width: 100%;
@@ -64,3 +81,21 @@ button:focus {
 	display: flex;
 	flex-direction: column;
 }
+#black {
+    font-family: thinkPs;
+  }
+#emphasis {
+    font-family: thinkBold;
+  }
+  #tabbed {
+    display: inline-block;
+    padding-left: 20px;
+  }
+  #tabbed2 {
+    display: inline-block;
+    padding-left: 40px;
+  }
+  #italic {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+  }

@@ -53,7 +53,7 @@
     { name: "About", href: "/about", children: [] },
     { name: "Volunteer", href: "/volunteer", children: [] },
     {
-      name: "Research",
+      name: "Internship",
       href: "#",
       children: [
         { name: "Bibliometrics", href: "/research" },

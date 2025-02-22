@@ -12,6 +12,10 @@
       {#if textElem.label == "break"}
         <br />
         <br />
+      {:else if textElem.label == "link"}
+        <a href={textElem.text.split("θ")[0]}>
+          {textElem.text.split("θ")[1]}
+        </a>
       {:else}
         <span id={textElem.label}>{textElem.text}</span>
       {/if}
@@ -32,46 +36,30 @@
     font-family: thinkSlick;
     src: url("../fonts/unb_pro_light.otf");
   }
-  @font-face {
-    font-family: thinkPs;
-    src: url("../fonts/analogue45light.ttf");
-  }
+
   #mainHolderleft {
     display: flex;
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     justify-content: left;
   }
   #mainHoldercenter {
     display: flex;
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
     justify-content: center;
   }
   #textHolder {
-    font-size: 35px;
+    font-size: 20px;
     width: 90%;
   }
-  #blue {
-    font-family: thinkSmart;
-    color: #809abf;
-  }
-  #white {
-    font-family: think;
-    color: white;
-  }
-  #black {
-    font-family: thinkPs;
-  }
-  #emphasis {
-    font-family: think;
-  }
+
   @media (max-width: 1100px) {
     #textHolder {
-      font-size: 3vw;
+      font-size: 2vw;
     }
   }
   @media (max-width: 700px) {

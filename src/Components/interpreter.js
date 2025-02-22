@@ -6,6 +6,9 @@ let rubric = [
     ["ρ", "Ρ", "break"],
     ["ι", "Ι", "italic"],
     ["ν", "Ν", "textIt"],
+    ["κ", "Κ", "tabbed"],
+    ["λ", "Λ", "tabbed2"],
+    ["φ", "Φ", "link"],
   ];
 
 export function interpret(inText) {
