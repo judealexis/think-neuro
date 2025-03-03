@@ -30,6 +30,18 @@
       If so, please reference this
       <a href="https://www.youtube.com/watch?v=FC_UtrEdwYw"> guide </a>
       created by our staff to fill out the application below.
+    {:else if text == "αβδ"}
+      The Doctor Discovery Program (DDP) is ThinkNeuro’s signature virtual
+      summer volunteer program for rising 3rd through 8th graders. We encourage
+      you to watch
+      <a href="https://youtu.be/ICDlGLyZaJw">the seminar</a>
+      prepared by our staff to learn if the program is a good fit for your child.
+      If your child is outside of this age range, you may submit a
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfYzrS8YVDJkGaRVTpU5B7bdR_Kc0x9Jic7TsqmMN8Naxnk1g/viewform?usp=dialog"
+      >
+        waitlist application
+      </a>
     {:else}
       {text}
     {/if}

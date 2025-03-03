@@ -17,11 +17,11 @@
       orientation: "left",
       component: TextButton,
       prop: [
-        "The Doctor Discovery Program (DDP) is ThinkNeuro’s signature virtual summer volunteer program for rising 3rd through 8th graders. If your child is outside of this age range, you may submit a waitlist application.",
+        "αβδ",
         true,
         "click",
         "Apply",
-        "https://docs.google.com/forms/d/e/1FAIpQLScNgmqC-qtYnHcXUzsieLNrf2_2RT4Ly8Ic75GSOzS4xnDdmA/closedform",
+        "https://docs.google.com/forms/d/e/1FAIpQLSc1Oo76EflJkTf_Svq3VG1EftaiAB9GFHxJVX3REi0cl1LDOw/viewform?usp=dialog",
       ],
     },
     {
@@ -91,7 +91,7 @@
         {
           question: "Who is eligible for the Doctor Discovery Program (DDP)?",
           answer:
-            "αThe Α εDoctor Discovery ProgramΕ α is ThinkNeuro’s signature virtual summer program for rising Α ε3rd to 8th gradersΕ α interested in learning about the human body through interactive lessons and hands-on experiments using our Α εDoctor Discovery Kit™.Ε α Α αIf your child does not meet the age requirement, you may submit a Α εwaitlist applicationΕ α, and we will do our best to accommodate your request or put you on a Α εpriority listΕ α for future sessions.Α",
+            "αThe Α εDoctor Discovery ProgramΕ α is ThinkNeuro’s signature virtual summer program for rising Α ε3rd to 8th gradersΕ α interested in learning about the human body through interactive lessons and hands-on experiments using our Α εDoctor Discovery Kit™.Ε α Α αIf your child does not meet the age requirement, you may submit a Α φhttps://docs.google.com/forms/d/e/1FAIpQLSfYzrS8YVDJkGaRVTpU5B7bdR_Kc0x9Jic7TsqmMN8Naxnk1g/viewform?usp=dialogθwaitlist applicationΦ α, and we will do our best to accommodate your request or put you on a Α εpriority listΕ α for future sessions.Α",
           isOpen: false,
         },
         {
