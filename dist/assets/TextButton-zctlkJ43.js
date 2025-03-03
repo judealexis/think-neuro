@@ -4,7 +4,7 @@ import{S as b,i as _,s as y,j as p,a as w,q as i,b as u,r as h,n as m,e as f,D a
       `),e=p("a"),e.textContent="the seminar",n=g(`
       prepared by our staff to learn if the program is a good fit for your child.
       If your child is outside of this age range, you may submit a
-      `),l=p("a"),l.textContent="waitlist application",i(e,"href","https://youtu.be/ICDlGLyZaJw"),i(l,"href","https://docs.google.com/forms/d/e/1FAIpQLSfYzrS8YVDJkGaRVTpU5B7bdR_Kc0x9Jic7TsqmMN8Naxnk1g/viewform?usp=dialog")},m(o,r){u(o,t,r),u(o,e,r),u(o,n,r),u(o,l,r)},p:m,d(o){o&&(f(t),f(e),f(n),f(l))}}}function x(c){let t,e,n,l,o;return{c(){t=g(`ThinkNeuro offers clinical research projects pertaining to bibliometrics,
+      `),l=p("a"),l.textContent="waitlist application.",i(e,"href","https://youtu.be/ICDlGLyZaJw"),i(l,"href","https://docs.google.com/forms/d/e/1FAIpQLSfYzrS8YVDJkGaRVTpU5B7bdR_Kc0x9Jic7TsqmMN8Naxnk1g/viewform?usp=dialog")},m(o,r){u(o,t,r),u(o,e,r),u(o,n,r),u(o,l,r)},p:m,d(o){o&&(f(t),f(e),f(n),f(l))}}}function x(c){let t,e,n,l,o;return{c(){t=g(`ThinkNeuro offers clinical research projects pertaining to bibliometrics,
       the study of productivity within medical literature in neuroscience and
       related disciplines. By enrolling in our Student Research Internship
       Program, you will learn how to analyze relevant healthcare data using the
