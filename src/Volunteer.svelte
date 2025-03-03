@@ -140,7 +140,7 @@
         {
           question: "How can I contact ThinkNeuro for more questions?",
           answer:
-            "αFor any additional questions, please email us at Α φmailto:info@thinkneuro.orgθinfo@thinkneuro.orgΦ αand our staff will be happy to assist you!Α",
+            "αFor any additional questions, please email us at Α φmailto:info@thinkneuro.orgθinfo@thinkneuro.orgΦ α and our staff will be happy to assist you!Α",
           isOpen: false,
         },
       ],
