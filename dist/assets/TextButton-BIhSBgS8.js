@@ -1,4 +1,4 @@
-import{S as b,i as _,s as y,j as p,a as w,q as i,b as u,r as h,n as m,e as f,D as v,o as g}from"./Repeater-RGzV03PC.js";function k(c){let t;return{c(){t=g(c[1])},m(e,n){u(e,t,n)},p:m,d(e){e&&f(t)}}}function C(c){let t,e,n,l;return{c(){t=g(`The Doctor Discovery Program (DDP) is ThinkNeuro’s signature virtual
+import{S as b,i as _,s as y,j as p,a as w,q as i,b as u,r as h,n as m,e as f,D as v,o as g}from"./Repeater-zylO9pkh.js";function k(c){let t;return{c(){t=g(c[1])},m(e,n){u(e,t,n)},p:m,d(e){e&&f(t)}}}function C(c){let t,e,n,l;return{c(){t=g(`The Doctor Discovery Program (DDP) is ThinkNeuro’s signature virtual
       summer volunteer program for rising 3rd through 8th graders. We encourage
       you to watch
       `),e=p("a"),e.textContent="the seminar",n=g(`

@@ -110,7 +110,7 @@
         {
           question: "When does registration open and close?",
           answer:
-            "κ• Registration opens on March 17th and closes on May 30th, 2024. Κ ρ Ρ κ• Once all kits are sold out, we cannot add more seats, so we encourage early sign-ups. Κ",
+            "κ• Registration opens on March 17th and closes on May 30th, 2025. Κ ρ Ρ κ• Once all kits are sold out, we cannot add more seats, so we encourage early sign-ups. Κ",
           isOpen: false,
         },
         {
