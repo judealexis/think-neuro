@@ -38,7 +38,7 @@
         κ• Office Hours (2 hour): Κ ρ Ρ
         λ- Sunday 11 AM PST Λ ρ Ρ`,
         "rightLeft",
-        "assets/volunteer/blackDoctor",
+        "assets/volunteer/asianDoctor",
         true,
       ],
     },
@@ -73,7 +73,7 @@
       title: "STUDENT TESTIMONIALS",
       orientation: "center",
       component: Carousel,
-      prop: [4, "assets/testimonials/volunteer/"],
+      prop: [6, "assets/testimonials/volunteer/"],
     },
     {
       component: TextAlone,
