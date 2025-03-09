@@ -40,8 +40,8 @@
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLSfYzrS8YVDJkGaRVTpU5B7bdR_Kc0x9Jic7TsqmMN8Naxnk1g/viewform?usp=dialog"
       >
-        waitlist application.
-      </a>
+        waitlist application
+      </a>.
     {:else}
       {text}
     {/if}
