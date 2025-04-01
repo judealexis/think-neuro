@@ -23,7 +23,7 @@
         true,
         "click",
         "Apply",
-        "https://docs.google.com/forms/d/e/1FAIpQLSfjkuE4PrjAQbf3Z_NCLuTwHbG-_xIHn_62DJJrsKCncxCW0Q/viewform",
+        "https://docs.google.com/forms/d/e/1FAIpQLScxuQkFZZ8pjSf4i7J9KM8cyaX0_Vg5nVrJsFY3VORXh9jFSA/closedform",
       ],
     },
     {
