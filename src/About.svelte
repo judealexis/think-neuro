@@ -26,8 +26,21 @@
           image: "assets/profiles/MY.jpg",
           name: "Michael Yan",
           title: "Chief Executive Officer",
-          description:
-            "Michael is a third-year undergraduate at the University of California, Berkeley studying Molecular and Cell Biology with a minor in Public Policy. Passionate about improving domestic healthcare access, he launched ThinkNeuro with a vision to address disparities in unmet needs for people experiencing homelessness affected by opioid use disorders. Michael’s commitment towards health equity led him to pursue translational-clinical research at both Stanford Medicine and Berkeley Public Health, resulting in several publications, patents, and a presentation at the 18th World Congress of Neurosurgery. Additionally, Michael is the Founder and President of Health Insurance for the Unhoused, a political student organization at Berkeley rooted in activism for universal health coverage and affordable housing programs in the San Francisco Bay Area. His trust and support in progressive leadership is demonstrated through his involvement in Cal Berkeley Democrats and his active donations to ActBlue, supporting initiatives such as the Harris Victory Fund and Harris-Walz campaign. Following graduation, Michael intends to work in health policy before pursuing an MD/MPP, serving as a physician-policymaker to democratize healthcare services and drive policy reform at the federal level. Outside of his work as a social entrepreneur and community advocate, Michael enjoys working out and traveling.",
+          description: `
+            εMichael YanΕ is a senior at the University of California, Berkeley majoring in Molecular and Cell Biology. He founded 
+            φhttps://www.thinkneuro.org/θThinkNeuroΦ
+            to increase 
+            equitable access to research and medical education, with early efforts focused on underserved populations affected by opioid use disorders.
+            ρ Ρ
+            Michael’s passion for translational medicine has led to research roles at Stanford Medicine and Berkeley Public Health, with his work 
+            presented at the WFNS 18th World Congress of Neurosurgery. In addition to building ThinkNeuro into a recognized student-driven enterprise, 
+            Michael previously founded 
+            φhttps://hiftu.studentorg.berkeley.eduθHealth Insurance for the UnhousedΦ, 
+            a Berkeley-based advocacy group focused on healthcare access and housing equity.
+            ρ Ρ
+            After graduation, Michael plans to pursue an MD and continue building solutions at the intersection of clinical care, education, and health 
+            equity. Outside of academics, he enjoys hiking, traveling, and mentoring students interested in medicine and research.
+            `,
         },
         {
           image: "assets/profiles/LS.jpg",

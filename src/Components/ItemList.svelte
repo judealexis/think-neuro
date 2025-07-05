@@ -1,106 +1,17 @@
 <script>
+  import SmartText from "./SmartText.svelte";
+
+  export let prop = [];
+
   let height;
-
   let textContainer;
-
   $: viewWidth = 0;
-
-  export let prop;
-
-  let rubric = [
-    ["λ", "Λ", "list"],
-    ["π", "Π", "point"],
-    ["ε", "Ε", "emphasis"],
-    ["τ", "Τ", "title"],
-    ["β", "Β", "body"],
-    ["ρ", "Ρ", "break"],
-  ];
-
-  function sortNestedArray(array) {
-    array.sort((a, b) => a.order - b.order);
-
-    array.forEach((item) => {
-      if (item.children && item.children.length > 0) {
-        sortNestedArray(item.children);
-      }
-    });
-  }
-
-  function interpret(inText, shift) {
-    let matches = [];
-    let childList = []; // This will eventually hold the top-level nodes only
-
-    // First, collect all matches
-    for (let y = 0; y < rubric.length; y++) {
-      let matchA = rubric[y][0];
-      let matchB = rubric[y][1];
-      let regexPattern = new RegExp(
-        `(?<=${matchA})[^${matchA}${matchB}]*?(?=${matchB})`,
-        "g"
-      );
-
-      let match;
-      while ((match = regexPattern.exec(inText)) !== null) {
-        matches.push({
-          start: match.index + shift,
-          end: match.index + shift + match[0].length,
-          text: match[0],
-          label: rubric[y][2],
-          children: [],
-        });
-      }
-    }
-
-    // Sort matches by start index, then by length (descending)
-    matches.sort(
-      (a, b) => a.start - b.start || b.end - a.end - (a.end - a.start)
-    );
-
-    // Build hierarchy
-    for (let i = 0; i < matches.length; i++) {
-      let placed = false;
-      for (let j = i - 1; j >= 0; j--) {
-        if (
-          matches[i].start >= matches[j].start &&
-          matches[i].end <= matches[j].end
-        ) {
-          matches[j].children.push(matches[i]);
-          placed = true;
-          break;
-        }
-      }
-      if (!placed) {
-        childList.push(matches[i]);
-      }
-    }
-
-    // Optionally interpret children recursively
-    childList.forEach((node) => {
-      if (node.children.length > 0) {
-        node.children = interpret(node.text, node.start);
-      }
-    });
-
-    return childList;
-  }
-
-  let items = [];
-  for (let x = 0; x < prop.length; x++) {
-    let current = interpret(prop[x].body, 0);
-    sortNestedArray(current);
-    // console.log(prop[x].body);
-    items.push({ image: prop[x].image, title: prop[x].title, text: current });
-  }
-
-  //   console.log(items);
-
-  //   writer(text, 0);
 </script>
 
 <svelte:window bind:innerWidth={viewWidth} />
 
 <main>
-  {#each items as item}
+  {#each prop as item}
     <div id="card" class="inColumn">
       <div id="header">{item.title}</div>
       <div id="holder" class="inRow">
@@ -110,7 +21,7 @@
             src={(viewWidth > 500
               ? "assets/projects/"
               : "assets/projects/stretched/") + item.image}
-            alt="Card"
+            alt={item.title}
           />
         </div>
         <div
@@ -119,37 +30,8 @@
           class="inColumn"
           style="max-height: {height}px"
         >
-          {#each item.text as txt}
-            {#if txt.children.length > 0}
-              {#if txt.label == "list"}
-                <ul class="lineAdjustment">
-                  {#each txt.children as child}
-                    <li>
-                      {#each child.children as textElem}
-                        <span id={textElem.label}>{textElem.text}</span>
-                      {/each}
-                    </li>
-                  {/each}
-                </ul>
-              {:else}
-                <div id={txt.label}>
-                  {#each txt.children as child}
-                    <div class="lineAdjustment" id={child.label}>
-                      {#if child.children.length > 0}
-                        {#each child.children as textElem}
-                          <span id={textElem.label}>{textElem.text}</span>
-                        {/each}
-                      {:else}
-                        <div id={child.label}>{child.text}</div>
-                      {/if}
-                    </div>
-                  {/each}
-                </div>
-              {/if}
-            {:else}
-              <div id={txt.label}>{txt.text}</div>
-            {/if}
-          {/each}
+          <!-- delegate all formatting + lists to SmartText -->
+          <SmartText text={item.body} />
         </div>
       </div>
     </div>

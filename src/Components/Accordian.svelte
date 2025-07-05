@@ -1,5 +1,5 @@
 <script>
-  import { interpret } from "./interpreter.js";
+  import SmartText from "./SmartText.svelte";
   export let prop;
 </script>
 
@@ -45,17 +45,7 @@
         style={item.isOpen ? "height: fit-content;" : "height: 0px;"}
         class="accordion-content"
       >
-        {#each interpret(item.answer) as textElem}
-          {#if textElem.label == "break"}
-            <br />
-          {:else if textElem.label == "link"}
-            <a href={textElem.text.split("θ")[0]}>
-              {textElem.text.split("θ")[1]}
-            </a>
-          {:else}
-            <span id={textElem.label}>{textElem.text}</span>
-          {/if}
-        {/each}
+        <SmartText text={item.answer} />
       </div>
     </div>
   {/each}

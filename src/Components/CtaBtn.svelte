@@ -1,4 +1,5 @@
 <script>
+  import SmartText from "./SmartText.svelte";
   import { interpret } from "./interpreter.js";
   export let prop;
   export let button = true;
@@ -12,10 +13,13 @@
 </script>
 
 <main id="container">
-  <div id="textHolder">
+  <!-- <div id="textHolder">
     {#each text as textElem}
       <span id={textElem.label}>{textElem.text}</span>
     {/each}
+  </div> -->
+  <div id="textHolder">
+    <SmartText text={prop[0]} />
   </div>
   {#if button}
     <a href="https://think-neuro.ck.page/newsletter-signup-lp" class="ctaBtn"
@@ -66,24 +70,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  #blue {
-    font-family: thinkSmart;
-    color: #809abf;
-  }
-  #white {
-    font-family: think;
-    color: white;
-  }
-  #black {
-    font-family: thinkPs;
-  }
-  #emphasis {
-    font-family: think;
-    color: black;
-  }
-  #break {
-    height: 10px;
-  }
+
   @media (max-width: 1100px) {
     .ctaBtn {
       font-size: 1.5vw; /* Set a font size */

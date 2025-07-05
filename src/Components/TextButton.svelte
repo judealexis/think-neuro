@@ -1,4 +1,5 @@
 <script>
+  import SmartText from "./SmartText.svelte";
   export let prop;
 
   let href = "#";
@@ -15,35 +16,7 @@
 
 <main>
   <div id="text">
-    {#if text == "αβγ"}
-      ThinkNeuro offers clinical research projects pertaining to bibliometrics,
-      the study of productivity within medical literature in neuroscience and
-      related disciplines. By applying for our Summer Research Internship (SRI),
-      you will learn how to analyze relevant healthcare data using the R
-      programming language and navigate the Web of Science Core Collection
-      (WoSCC) software. All researchers have their names listed on a research
-      poster at our Summer Symposium as well as deliver an oral presentation of
-      their work. If you are a high school or undergraduate student interested
-      in our Summer Research Internship (SRI), please watch our free seminar
-      <a href="https://youtu.be/PBo3NwjnIi8">here</a> to gauge if this program
-      is a good fit for you and your career aspirations. If so, please reference
-      this <a href="https://www.youtube.com/watch?v=zSpthzvZr0k"> guide </a> created
-      by our staff to fill out the application below.
-    {:else if text == "αβδ"}
-      The Doctor Discovery Program (DDP) is ThinkNeuro’s signature virtual
-      summer volunteer program for rising 3rd through 8th graders. We encourage
-      you to watch
-      <a href="https://www.youtube.com/watch?v=mXxJbsCwuNE">the seminar</a>
-      prepared by our staff to learn if the program is a good fit for your child.
-      If your child is outside of this age range, you may submit a
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSfYzrS8YVDJkGaRVTpU5B7bdR_Kc0x9Jic7TsqmMN8Naxnk1g/viewform?usp=dialog"
-      >
-        waitlist application
-      </a>.
-    {:else}
-      {text}
-    {/if}
+    <SmartText {text} />
   </div>
   {#if button}
     <button id={buttonActive}>

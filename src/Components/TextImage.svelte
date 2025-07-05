@@ -1,44 +1,44 @@
 <script>
-  import { interpret } from "./interpreter.js";
+  import SmartText from "./SmartText.svelte";
+  import Carousel from "./Carousel.svelte";
 
   export let prop;
 
   $: viewWidth = 0;
 
-  let processedText = interpret(prop[0]);
   let textPosition = prop[1];
-  let image = prop[2];
+  let image = prop[2]; //feed in prop list for carousel
   let centered = prop[3];
+  let useCarousel = false;
+
+  try {
+    useCarousel = prop[4];
+  } catch {}
 </script>
 
 <svelte:window bind:innerWidth={viewWidth} />
 
 <main>
   <div
-    id={textPosition == "rightLeft" ? "rightLeftHolder" : "leftRightHolder"}
-    class={centered ? "centeredContent" : ""}
+    id={(textPosition == "rightLeft" ? "rightLeftHolder" : "leftRightHolder") +
+      (useCarousel ? "C" : "")}
+    class:centeredContent={centered}
   >
-    <img
-      id="smartImage"
-      src={image + (viewWidth <= 1100 ? "Stretch.jpeg" : ".jpeg")}
-      alt="diversity"
-    />
-
+    {#if useCarousel}
+      <Carousel prop={image} />
+    {:else}
+      <img
+        id="smartImage"
+        src={image + (viewWidth <= 1100 ? "Stretch.jpeg" : ".jpeg")}
+        alt="diversity"
+      />
+    {/if}
     <div
-      id="smartText"
+      id={"smartText" + (useCarousel ? "C" : "")}
+      class="reduced_space"
       style={"text-align: " + (textPosition == "rightLeft" ? "left" : "right")}
     >
-      {#each processedText as textElem}
-        {#if textElem.label == "break"}
-          <br />
-        {:else if textElem.label == "link"}
-          <a href={textElem.text.split("θ")[0]}>
-            {textElem.text.split("θ")[1]}
-          </a>
-        {:else}
-          <span class="reduced_space" id={textElem.label}>{textElem.text}</span>
-        {/if}
-      {/each}
+      <SmartText text={prop[0]} />
     </div>
   </div>
 </main>
@@ -50,6 +50,14 @@
   #smartText {
     width: 50%;
     font-size: 30px;
+    font-family: thinkPs;
+    line-height: 1.5;
+  }
+  #smartTextC {
+    width: 30%;
+    font-size: 15px;
+    font-family: thinkPs;
+    line-height: 1.5;
   }
   #smartImage {
     width: 28%;
@@ -70,8 +78,18 @@
     flex-direction: row-reverse;
   }
 
+  #rightLeftHolderC {
+    display: flex;
+    flex-direction: row;
+  }
+  #leftRightHolderC {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .centeredContent {
     justify-content: center;
+    align-items: center;
   }
 
   #image {
@@ -79,11 +97,6 @@
     margin-right: 20px;
     object-fit: contain;
     border-radius: 15px;
-  }
-
-  #smartText {
-    font-family: thinkPs;
-    line-height: 1.5;
   }
 
   @media (min-width: 1100px) {
@@ -94,25 +107,31 @@
       min-width: 200px;
     }
   }
-  @media (max-width: 1100px) {
-    #smartText {
-      font-size: 2.5vw;
-    }
-    #smartImage {
-      min-width: 200px;
-    }
-  }
   @media (max-width: 850px) {
     #smartText {
       font-size: 18px;
     }
+    #smartTextC {
+      width: fit-content;
+    }
     #smartImage {
       min-width: 180px;
+    }
+    #rightLeftHolderC {
+      display: flex;
+      flex-direction: column;
+    }
+    #leftRightHolderC {
+      display: flex;
+      flex-direction: column;
     }
   }
   @media (max-width: 500px) {
     #smartText {
       font-size: 3.5vw;
+    }
+    #smartTextC {
+      font-size: 2.5vw;
     }
     #smartImage {
       min-width: 50px;

@@ -1,4 +1,5 @@
 <script>
+  import SmartText from "./SmartText.svelte";
   export let prop;
 
   $: viewWidth = 0;
@@ -21,7 +22,7 @@
         </div>
         <div id={viewWidth > 800 ? "horizBounded" : ""} class="description">
           <div class="descriptiveParagraph" id="medium">
-            {people.description}
+            <SmartText text={people.description} />
           </div>
         </div>
       </div>

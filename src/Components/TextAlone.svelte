@@ -1,25 +1,13 @@
 <script>
-  import { interpret } from "./interpreter.js";
+  import SmartText from "./SmartText.svelte";
   export let prop;
 
-  let text = interpret(prop[0]);
   let alignment = prop[1];
 </script>
 
 <main id={"mainHolder" + alignment}>
   <div id="textHolder">
-    {#each text as textElem}
-      {#if textElem.label == "break"}
-        <br />
-        <br />
-      {:else if textElem.label == "link"}
-        <a href={textElem.text.split("θ")[0]}>
-          {textElem.text.split("θ")[1]}
-        </a>
-      {:else}
-        <span id={textElem.label}>{textElem.text}</span>
-      {/if}
-    {/each}
+    <SmartText text={prop[0]} />
   </div>
 </main>
 

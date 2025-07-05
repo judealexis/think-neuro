@@ -16,7 +16,7 @@
       orientation: "left",
       component: TextButton,
       prop: [
-        "ThinkNeuro is dedicated to combating healthcare disparities in opioid abuse treatment access through policy advocacy, education reform, and technological renovation. Through sponsorship of professional development opportunities and scholarship initiatives, we aim to inspire future healthcare leaders to serve the public and improve the health of communities often in the periphery of our society. Our commitment to public service extends beyond streamlining substance abuse campaigns to bridging digital health solutions for opioid use disorder patients and expanding telehealth services for addiction treatment. Intersecting collaboration of highly motivated academics with our emphasis on scholarly research, ThinkNeuro strives to address the racial-ethnic, socioeconomic, and geographic barriers to healthcare access within the United States.",
+        "ThinkNeuro is redefining early access to research and medical education by empowering students through innovative, AI-supported learning experiences. From elementary and middle school learners to high school and undergraduates, we provide our students with research certification, publication pathways, and hands-on exposure to the health sciences. Through scalable, student-centered programs like our Bibliometric Research Internship (BRI) and Doctor Discovery Program (DDP), we aim to democratize access to meaningful academic and scientific exploration. By centering equity, innovation, and impact, we aim to bridge the gap between ambition and opportunity, creating new pipelines for socially conscious scholars to drive change for the underserved.",
         true,
         "click",
         "Learn More",
@@ -28,7 +28,7 @@
       orientation: "center",
       component: TextImage,
       prop: [
-        "νWe have an aspiration to be better. Our advocacy initiatives and community-focused research projects serve to redress centuries of racism, discrimination, and inequity that have plagued the healthcare and education sectors of our society. We have an aspiration to foster a sense of belonging, collaboration, and self-empowerment, applying sociocultural models of learning such asΝ ι Vygotsky's Zone of Proximal Development Ι νandΝ ι Cognitive ApprenticeshipΙν. We have an aspiration to improve the environment in which our learners, ranging from the highly academically competent to the academically marginalized, gain fundamental skills required to become equity-oriented leaders engaged in public and academic discourse.Ν",
+        "At ThinkNeuro, we hold a deep aspiration to build a more equitable future. Our advocacy initiatives and community-focused research aim to confront and redress the long-standing legacies of racism, discrimination, and structural inequity that persist in healthcare and education. We strive to foster a sense of belonging, collaboration, and self-empowerment by grounding our programs in sociocultural models of learning, including ιVygotsky’s Zone of Proximal DevelopmentΙ and ιCognitive ApprenticeshipΙ. Whether our learners are highly academically prepared or historically marginalized, we are committed to cultivating environments where all students can acquire the foundational skills to become equity-driven leaders engaged in both public and academic discourse.",
         "rightLeft",
         "assets/mission",
         false,
