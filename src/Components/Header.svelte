@@ -50,7 +50,7 @@
 
   let pages = [
     { name: "Home", href: "/index", children: [] },
-    { name: "About", href: "/about", children: [] },
+    // { name: "About", href: "/about", children: [] },
     { name: "Volunteer", href: "/volunteer", children: [] },
     {
       name: "Internship",
