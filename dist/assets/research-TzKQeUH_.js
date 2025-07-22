@@ -1,4 +1,4 @@
-import{S as b,i as w,s as v,H as I,R as k,F as T,c as l,a as m,m as c,b as f,n as S,t as d,d as h,e as g,f as u}from"./SmartText-kJWZOGtp.js";/* empty css                                                 */import{T as p}from"./TextAlone-flPETqq6.js";import{T as R}from"./TextButton-DtZUhDdb.js";import{T as A}from"./TextImage-ai5NUsq6.js";import{A as x}from"./Accordian-EyJdpOQ2.js";import"./Carousel-SEHTiBt8.js";function B(y){let t,o,n,s,i,r;return t=new I({}),n=new k({props:{children:[{title:"BRI: BIBLIOMETRIC RESEARCH INTERNSHIP",orientation:"left",component:R,prop:[`
+import{S as b,i as w,s as v,H as I,R as k,F as T,c,a as m,m as d,b as f,n as S,t as h,d as u,e as g,f as p}from"./SmartText-kJWZOGtp.js";/* empty css                                                 */import{T as o}from"./TextAlone-flPETqq6.js";import{T as R}from"./TextButton-DtZUhDdb.js";import{T as A}from"./TextImage-ai5NUsq6.js";import{A as x}from"./Accordian-EyJdpOQ2.js";import"./Carousel-SEHTiBt8.js";function B(y){let t,s,n,l,i,r;return t=new I({}),n=new k({props:{children:[{title:"BRI: BIBLIOMETRIC RESEARCH INTERNSHIP",orientation:"left",component:R,prop:[`
         The εBibliometric Research Internship (BRI)Ε is a εfully remoteΕ research and certification program 
         for ambitious εhigh school and undergraduate studentsΕ. Interns learn to conduct real-world bibliometric 
         analysis on topics in neuroscience, medicine, and public health using tools like R programming, Microsoft 
@@ -13,7 +13,7 @@ import{S as b,i as w,s as v,H as I,R as k,F as T,c as l,a as m,m as c,b as f,n a
 
         The BRI program prepares students to showcase their research at conferences, bolster their academic resumes, 
         and build skills in data-driven analysis.
-        `,!0,"click","Apply","https://tinyurl.com/thinkneuro-fa25"]},{component:p,title:"ELIGIBILITY & APPLICATION CRITERIA",prop:[`
+        `,!0,"click","Apply","https://tinyurl.com/thinkneuro-fa25"]},{component:o,title:"ELIGIBILITY & APPLICATION CRITERIA",prop:[`
         ThinkNeuro’s Bibliometrics Research Internship (BRI) is open to ambitious high school and undergraduate students with a 
         passion for neuroscience. While U.S. students are given priority for admission, international applicants are also welcome to apply. ρ Ρ ρ Ρ
         
@@ -36,7 +36,7 @@ import{S as b,i as w,s as v,H as I,R as k,F as T,c as l,a as m,m as c,b as f,n a
         πEach cohort is capped to ensure quality mentorship and small-group supportΠ
         Λ
         We encourage early applications, as spots are limited and tend to fill quickly.
-        `,"left"]},{component:p,title:"INSIDE THE BRI CURRICULUM",prop:[`
+        `,"left"]},{component:o,title:"INSIDE THE BRI CURRICULUM",prop:[`
         ε Phase 1: R Programming Foundations Ε
         ρ Ρ 
         Interns begin by building technical fluency in R, one of the most widely used programming languages in research and data science.
@@ -74,7 +74,7 @@ import{S as b,i as w,s as v,H as I,R as k,F as T,c as l,a as m,m as c,b as f,n a
         π Opened doors to research positions at local universities and further academic opportunities. Π
         Λ
         The success of past interns is highlighted in the case studies featured below.
-        `,"left"]},{component:p,title:"TOOLS & PLATFORMS YOU'LL LEARN",prop:[`
+        `,"left"]},{component:o,title:"TOOLS & PLATFORMS YOU'LL LEARN",prop:[`
         Throughout the program, interns gain hands-on experience with a range of tools commonly used in academic research, data science, and presentation design:
         λ
         π R Programming – for data cleaning, bibliometric analysis, and visualization Π
@@ -84,10 +84,7 @@ import{S as b,i as w,s as v,H as I,R as k,F as T,c as l,a as m,m as c,b as f,n a
         π Google Slides / Canva – to design clear, professional posters and presentations Π
         Λ
         These tools are introduced gradually throughout each phase of the curriculum, with beginner-friendly guidance and support from mentors through our custom-built modules, dedicated Slack channels, and live bi-weekly office hours.
-        ρ Ρ ρ Ρ
-
-        ε ThinkNeuro AI Suite (Beta) Ε
-        ρ Ρ
+        `,"left"]},{component:o,title:"THINKNEURO AI SUITE (BETA)",prop:[`
         As part of our commitment to innovation, ThinkNeuro is beta testing the ThinkNeuro AI Suite: a collection of AI-powered tools designed to support BRI interns throughout their research journey.
         ρ Ρ
         Interns will receive early access to:
@@ -155,4 +152,4 @@ import{S as b,i as w,s as v,H as I,R as k,F as T,c as l,a as m,m as c,b as f,n a
           
           The program is open to high school students, undergraduates, master’s students, and recent graduates who are eager to build research and 
           data skills. All applicants are considered based on fit, interest, and capacity.
-          `,isOpen:!1}]}]}}),i=new T({}),{c(){l(t.$$.fragment),o=m(),l(n.$$.fragment),s=m(),l(i.$$.fragment)},m(e,a){c(t,e,a),f(e,o,a),c(n,e,a),f(e,s,a),c(i,e,a),r=!0},p:S,i(e){r||(d(t.$$.fragment,e),d(n.$$.fragment,e),d(i.$$.fragment,e),r=!0)},o(e){h(t.$$.fragment,e),h(n.$$.fragment,e),h(i.$$.fragment,e),r=!1},d(e){e&&(g(o),g(s)),u(t,e),u(n,e),u(i,e)}}}class N extends b{constructor(t){super(),w(this,t,null,B,v,{})}}new N({target:document.body,props:{name:"world"}});
+          `,isOpen:!1}]}]}}),i=new T({}),{c(){c(t.$$.fragment),s=m(),c(n.$$.fragment),l=m(),c(i.$$.fragment)},m(e,a){d(t,e,a),f(e,s,a),d(n,e,a),f(e,l,a),d(i,e,a),r=!0},p:S,i(e){r||(h(t.$$.fragment,e),h(n.$$.fragment,e),h(i.$$.fragment,e),r=!0)},o(e){u(t.$$.fragment,e),u(n.$$.fragment,e),u(i.$$.fragment,e),r=!1},d(e){e&&(g(s),g(l)),p(t,e),p(n,e),p(i,e)}}}class N extends b{constructor(t){super(),w(this,t,null,B,v,{})}}new N({target:document.body,props:{name:"world"}});

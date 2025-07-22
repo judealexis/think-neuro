@@ -134,10 +134,15 @@
         π Google Slides / Canva – to design clear, professional posters and presentations Π
         Λ
         These tools are introduced gradually throughout each phase of the curriculum, with beginner-friendly guidance and support from mentors through our custom-built modules, dedicated Slack channels, and live bi-weekly office hours.
-        ρ Ρ ρ Ρ
-
-        ε ThinkNeuro AI Suite (Beta) Ε
-        ρ Ρ
+        `,
+        "left",
+      ],
+    },
+    {
+      component: TextAlone,
+      title: "THINKNEURO AI SUITE (BETA)",
+      prop: [
+        `
         As part of our commitment to innovation, ThinkNeuro is beta testing the ThinkNeuro AI Suite: a collection of AI-powered tools designed to support BRI interns throughout their research journey.
         ρ Ρ
         Interns will receive early access to:
