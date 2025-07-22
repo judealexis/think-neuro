@@ -116,10 +116,15 @@
         π Opened doors to research positions at local universities and further academic opportunities. Π
         Λ
         The success of past interns is highlighted in the case studies featured below.
-        ρ Ρ ρ Ρ
-
-        ε Tools & Platforms You'll Learn Ε
-        ρ Ρ
+        `,
+        "left",
+      ],
+    },
+    {
+      component: TextAlone,
+      title: "TOOLS & PLATFORMS YOU'LL LEARN",
+      prop: [
+        `
         Throughout the program, interns gain hands-on experience with a range of tools commonly used in academic research, data science, and presentation design:
         λ
         π R Programming – for data cleaning, bibliometric analysis, and visualization Π
@@ -175,7 +180,7 @@
         the early momentum and clarity to pursue research with confidence.
         ρ Ρ ρ Ρ
         εSonia SinghalΕ ρ Ρ
-        ιFreshman at UC Berkeley → Undergraduate ResearcherΙ ρ Ρ
+        ιUndergraduate at the University of Pennsylvania → Returning Summer InternΙ ρ Ρ
         Sonia joined the BRI program in the spring of her freshman year at εUPennΕ. Now a rising sophomore, she’s returning for a 
         second round, but this time, she’s documenting her journey. Sonia’s 9-part video series walks through εeach week of the BRIΕ
         experience, so future interns can get a real sense of how the program is structured. ρ Ρ
@@ -187,42 +192,42 @@
         true,
       ],
     },
-    {
-      title: "GALLERY (2024)",
-      orientation: "left",
-      component: TightGallery,
-      prop: [
-        {
-          component: Image,
-          args: "assets/posters/2024/0.png",
-          three: false,
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/1.png",
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/2.png",
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/3.png",
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/4.png",
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/5.png",
-        },
-        {
-          component: Image,
-          args: "assets/posters/2024/6.png",
-        },
-      ],
-    },
+    // {
+    //   title: "GALLERY (2024)",
+    //   orientation: "left",
+    //   component: TightGallery,
+    //   prop: [
+    //     {
+    //       component: Image,
+    //       args: "assets/posters/2024/0.png",
+    //       three: false,
+    //     },
+    //     {
+    //       component: Image,
+    //       args: "assets/posters/2024/1.png",
+    //     },
+    //     {
+    //       component: Image,
+    //       args: "assets/posters/2024/2.png",
+    //     },
+    //     {
+    //       component: Image,
+    //       args: "assets/posters/2024/3.png",
+    //     },
+    //     {
+    //       component: Image,
+    //       args: "assets/posters/2024/4.png",
+    //     },
+    //     {
+    //       component: Image,
+    //       args: "assets/posters/2024/5.png",
+    //     },
+    //     {
+    //       component: Image,
+    //       args: "assets/posters/2024/6.png",
+    //     },
+    //   ],
+    // },
     {
       title: "FREQUENTLY ASKED QUESTIONS",
       orientation: "left",
