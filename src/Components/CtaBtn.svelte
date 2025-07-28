@@ -2,14 +2,11 @@
   import SmartText from "./SmartText.svelte";
   import { interpret } from "./interpreter.js";
   export let prop;
-  export let button = true;
+  // export let button = true;
 
   let text = interpret(prop[0]);
   let ctaText = prop[1];
-
-  try {
-    button = prop[2];
-  } catch {}
+  let ctaLink = prop[2];
 </script>
 
 <main id="container">
@@ -21,11 +18,7 @@
   <div id="textHolder">
     <SmartText text={prop[0]} />
   </div>
-  {#if button}
-    <a href="https://think-neuro.ck.page/newsletter-signup-lp" class="ctaBtn"
-      >{ctaText}</a
-    >
-  {/if}
+  <a href={ctaLink} class="ctaBtn">{ctaText}</a>
 </main>
 
 <style>

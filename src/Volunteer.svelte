@@ -37,13 +37,19 @@
       component: TextImage,
       prop: [
         `αThe Doctor Discovery Program runs from June 23rd to August 9th, 2025 with a total of 6 hours of possible programming each week: Α ρ Ρ
-        κ• Lesson (1 hour): Κ ρ Ρ
-        λ- Monday 9-10 AM PST or Λ ρ Ρ
-        λ- Saturday 9-10 AM PST Λ ρ Ρ
-        κ• Game Day (2 hour): Κ ρ Ρ
-        λ- Sunday 9-11 AM PST Λ ρ Ρ
-        κ• Office Hours (2 hour): Κ ρ Ρ
-        λ- Sunday 11 AM - 1 PM PST Λ ρ Ρ`,
+        εLesson (1 hour): Ε ρ Ρ
+        λ
+        π Monday 9-10 AM PST or Π
+        π Saturday 9-10 AM PST Π
+        Λ
+        εGame Day (2 hour): Ε ρ Ρ
+        λ
+        π Sunday 9-11 AM PST Π
+        Λ
+        εOffice Hours (2 hour): Ε ρ Ρ
+        λ
+        π Sunday 11 AM - 1 PM PST Π
+        Λ`,
         "rightLeft",
         "assets/volunteer/asianDoctor",
         true,

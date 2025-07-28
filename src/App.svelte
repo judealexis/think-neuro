@@ -16,7 +16,7 @@
       orientation: "left",
       component: TextButton,
       prop: [
-        "ThinkNeuro is redefining early access to research and medical education by empowering students through innovative, AI-supported learning experiences. From elementary and middle school learners to high school and undergraduates, we provide our students with research certification, publication pathways, and hands-on exposure to the health sciences. Through scalable, student-centered programs like our Bibliometric Research Internship (BRI) and Doctor Discovery Program (DDP), we aim to democratize access to meaningful academic and scientific exploration. By centering equity, innovation, and impact, we aim to bridge the gap between ambition and opportunity, creating new pipelines for socially conscious scholars to drive change for the underserved.",
+        "ThinkNeuro is building the future of early-stage research and medical education through scalable, AI-supported learning experiences. We empower students, from elementary to undergraduate, with access to certification programs, research publication pathways, and real-world exposure to neuroscience, medicine, and public health. ThinkNeuro’s proprietary AI Suite, integrated directly into our programs, transforms how students learn and produce research. By building the infrastructure to democratize access to scientific education at scale, we’re creating new opportunities for students to explore their passions and accelerate their academic journeys. Rooted in equity, innovation, and impact, ThinkNeuro is redefining what’s possible for young learners, unlocking new pathways to academic and professional success.",
         true,
         "click",
         "Learn More",
