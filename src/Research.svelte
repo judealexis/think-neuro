@@ -172,11 +172,11 @@
         `
         Every student’s journey into research looks a little different. Hear directly from past interns about how BRI shaped their academic goals, built their confidence, and opened new doors whether they were just starting out in high school or diving deeper as undergraduates. These stories offer a glimpse into what's possible through the program. ρ Ρ ρ Ρ
         εShishir TalladaΕ ρ Ρ
-        High School Intern &nbsp; → &nbsp; Undergraduate at Johns Hopkins University ρ Ρ
+        High School Intern → Undergraduate at Johns Hopkins University ρ Ρ
         Shishir joined ThinkNeuro as a high school student with no prior experience in academic research. Through his internship, he explored key topics in medicine and public health while gaining valuable mentorship and communication skills. Shishir is now attending Johns Hopkins University, where he continues to build on the foundation he developed during his time at ThinkNeuro. ρ Ρ
         ▶️ φhttps://www.youtube.com/shorts/iBE7y8VjDNoθWatch his story hereΦ. ρ Ρ ρ Ρ
         εClarissa ColemanΕ ρ Ρ
-        High School Intern &nbsp; → &nbsp; MIT MITES ρ Ρ
+        High School Intern → MIT MITES ρ Ρ
         Clarissa joined ThinkNeuro as a high school student with no prior research experience. After completing the Bibliometrics Research Internship, she was accepted to the MITES Semester Program at the Massachusetts Institute of Technology, which is one of the nation’s most prestigious high school research programs with an acceptance rate below 2%. She also went on to secure a research position at Brown University, continuing to build on the foundation she developed through ThinkNeuro. ρ Ρ
         ▶️ Her story is coming soon! ρ Ρ ρ Ρ
 
@@ -187,7 +187,7 @@
         ▶️ Their stories are coming soon! ρ Ρ ρ Ρ
 
         εSonia SinghalΕ ρ Ρ
-        Undergraduate at the University of Pennsylvania &nbsp; → &nbsp; Returning Summer Intern ρ Ρ
+        Undergraduate at the University of Pennsylvania → Returning Summer Intern ρ Ρ
         Sonia joined the BRI program in the spring of her freshman year at UPenn. Now a rising sophomore, she's returning for a second round, but this time, she’s documenting her journey. Sonia’s 9-part video series walks through each week of the BRI experience, so future interns can get a real sense of how the program is structured. ρ Ρ
         ▶️ φhttps://www.youtube.com/watch?v=404HAt-ww3M&list=PL7yaNuHOf2USqfJUnt7CV8xs0A1PtthdKθWatch the full series hereΦ.
         `,
