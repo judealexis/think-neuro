@@ -211,7 +211,7 @@
       title: "",
       prop: [
         "ωApply Now for the Fall 2025 CohortΩ",
-        "Click Here!",
+        "Start Your Application",
         "https://tinyurl.com/thinkneuro-fa25",
       ],
     },
