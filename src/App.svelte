@@ -20,7 +20,7 @@
         true,
         "click",
         "Learn More",
-        "/internship",
+        "/research",
       ],
     },
     {
