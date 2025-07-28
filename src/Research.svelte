@@ -18,12 +18,12 @@
 <Repeater
   children={[
     {
-      title: "BRI: BIBLIOMETRIC RESEARCH INTERNSHIP",
+      title: "BRI: BIBLIOMETRICS RESEARCH INTERNSHIP",
       orientation: "left",
       component: TextButton,
       prop: [
         `
-        The εBibliometric Research Internship (BRI)Ε is a εfully remoteΕ research and certification program 
+        The εBibliometrics Research Internship (BRI)Ε is a εfully remoteΕ research and certification program 
         for ambitious εhigh school and undergraduate studentsΕ. Interns learn to conduct real-world bibliometric 
         analysis on topics in neuroscience, medicine, and public health using tools like R programming, Microsoft 
         Excel, and data visualization.
@@ -366,19 +366,6 @@
           We do not have fixed acceptance rates, as they εvary by application cycleΕ depending on the volume and competitiveness of the applicant pool. Some cycles, such as the Fall, receive significantly more applications than others. ρ Ρ
           Admission is based on a εholistic reviewΕ of your interest, commitment, and alignment with our mission. While the program is selective, it is also designed to support a εdiverse range of learnersΕ, especially those with limited access to traditional research opportunities, whether due to their εage, educational background, or lack of prior research exposureΕ. Historical acceptance rates have ranged between 30-60%.
           For acceptance statistics from a recent cohort, you can view data from Fall 2024 here: 🔗 φhttps://www.instagram.com/p/DAhkf9rukpv/?img_index=1θFall 2024 Cohort StatsΦ
-          `,
-          isOpen: false,
-        },
-        {
-          question: "What is the acceptance rate?",
-          answer: `We do not have fixed acceptance rates, as they εvary by application cycleΕ depending on the volume and competitiveness 
-          of the applicant pool. Some cycles — such as the Fall — receive significantly more applications than others. ρ Ρ ρ Ρ
-          
-          Admission is based on a εholistic reviewΕ of your interest, commitment, and alignment with our mission. While the program is 
-          selective, it is also designed to support a εdiverse range of learnersΕ, especially those with limited access to traditional 
-          research opportunities, whether due to their εage, educational background, or lack of prior research exposureΕ. ρ Ρ ρ Ρ
-
-          For acceptance statistics from a recent cohort, you can view data from Fall 2024 φhttps://www.instagram.com/p/DAhkf9rukpv/?img_index=1θhereΦ
           `,
           isOpen: false,
         },
