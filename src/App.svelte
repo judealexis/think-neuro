@@ -19,7 +19,7 @@
         "ThinkNeuro is building the future of early-stage research and medical education through scalable, AI-supported learning experiences. We empower students, from elementary to undergraduate, with access to certification programs, research publication pathways, and real-world exposure to neuroscience, medicine, and public health. ThinkNeuro’s proprietary AI Suite, integrated directly into our programs, transforms how students learn and produce research. By building the infrastructure to democratize access to scientific education at scale, we’re creating new opportunities for students to explore their passions and accelerate their academic journeys. Rooted in equity, innovation, and impact, ThinkNeuro is redefining what’s possible for young learners, unlocking new pathways to academic and professional success.",
         true,
         "click",
-        "Learn More",
+        "Apply for the Fall 2025 Cohort",
         "/research",
       ],
     },

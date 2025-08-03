@@ -80,9 +80,7 @@ import{S as q,i as B,s as x,g as G,h as P,j as f,b as D,l as M,t as b,k as U,o a
       aimed at promoting healthcare equity and access.Π
       Λ`},{image:"edu.jpg",title:"Digital Health Science",body:`
       τBACKGROUNDΤ
-       Many elementary and middle school students—especially those from under-resourced or historically marginalized communities—lack access 
-       to high-quality, engaging health science education. These early disparities in exposure can limit future interest and confidence in 
-       pursuing careers in medicine and public health. ρ Ρ 
+        Many elementary and middle school students, especially those from under-resourced or historically marginalized communities, lack access to high-quality, engaging health science education. These early disparities in exposure can limit future interest and confidence in pursuing careers in medicine and public health. ρ Ρ 
       
       τDESCRIPTIONΤ 
       The Digital Health Science Education project addresses these gaps by developing interactive, age-appropriate lessons and hands-on activity 

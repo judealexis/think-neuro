@@ -15,6 +15,13 @@
       prop: [
         {
           question:
+            "How do I apply to ThinkNeuro’s Fall 2025 Internship Cohort?",
+          answer:
+            "You can apply to ThinkNeuro’s Fall 2025 Cohort by clicking the “Apply for the Fall 2025 Cohort” button on our homepage or navigating to φwww.thinkneuro.org/researchθwww.thinkneuro.org/researchΦ. If you have any difficulty accessing the application at any time, please contact our team at φmailto:info@thinkneuro.orgθinfo@thinkneuro.orgΦ.",
+          isOpen: false,
+        },
+        {
+          question:
             "What differentiates ThinkNeuro’s pre-health opportunities?",
           answer:
             "αThe main perks of participation in ThinkNeuro’s programs include authorship on scholarly publications from research-based internships and academic scholarships from Medical Hackathon participation. For more information, please refer to the “Programs” section of our website.Α",

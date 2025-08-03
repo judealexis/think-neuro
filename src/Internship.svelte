@@ -153,9 +153,7 @@
       title: "Digital Health Science",
       body: `
       τBACKGROUNDΤ
-       Many elementary and middle school students—especially those from under-resourced or historically marginalized communities—lack access 
-       to high-quality, engaging health science education. These early disparities in exposure can limit future interest and confidence in 
-       pursuing careers in medicine and public health. ρ Ρ 
+        Many elementary and middle school students, especially those from under-resourced or historically marginalized communities, lack access to high-quality, engaging health science education. These early disparities in exposure can limit future interest and confidence in pursuing careers in medicine and public health. ρ Ρ 
       
       τDESCRIPTIONΤ 
       The Digital Health Science Education project addresses these gaps by developing interactive, age-appropriate lessons and hands-on activity 
