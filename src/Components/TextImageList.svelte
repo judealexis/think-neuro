@@ -6,7 +6,7 @@
 
 <!-- Top Intro Text -->
 <main class="mainHolderIntro">
-  <div class="textHolder">
+  <div class="textHolderIntro">
     <SmartText text={filler} />
   </div>
 </main>
@@ -37,7 +37,18 @@
 {/each}
 
 <style>
-  /* Include your existing styles here — updated to support top intro SmartText */
+  @font-face {
+    font-family: think;
+    src: url("../fonts/analogue65medium.ttf");
+  }
+  @font-face {
+    font-family: thinkSmart;
+    src: url("../fonts/yoxallbold.ttf");
+  }
+  @font-face {
+    font-family: thinkSlick;
+    src: url("../fonts/unb_pro_light.otf");
+  }
 
   .mainHolder {
     display: flex;
@@ -86,12 +97,40 @@
     padding: 0 15px;
   }
 
+  .mainHolderIntro {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .textHolderIntro {
+    font-size: 20px;
+    width: 90%;
+    padding: 0 15px;
+    text-align: left;
+  }
+
   @media (max-width: 1000px) {
-    .mainHolder {
-      flex-direction: column;
-      align-items: center;
+    .mainHolder,
+    .mainHolder.left,
+    .mainHolder.right,
+    .mainHolder.center,
+    .mainHolderIntro {
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      text-align: center !important;
+    }
+
+    .textHolder,
+    .textHolderIntro {
+      width: 90%;
+      order: 1;
+      font-size: 2.5vw;
+      padding: 0;
       text-align: center;
-      flex-wrap: wrap;
     }
 
     .imageGroup {
@@ -104,18 +143,15 @@
       width: 30vw;
       max-width: none;
     }
-
-    .textHolder {
-      width: 90%;
-      order: 1;
-      font-size: 2.5vw;
-      padding: 0;
-    }
   }
 
   @media (max-width: 500px) {
     .textHolder {
       font-size: 4vw;
+    }
+
+    .textHolderIntro {
+      font-size: 3.5vw;
     }
 
     .mainHolder {
@@ -125,36 +161,6 @@
 
     .image {
       width: 40vw;
-    }
-  }
-
-  .mainHolderIntro {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    width: 160%;
-    gap: 20px;
-  }
-
-  @media (max-width: 1000px) {
-    .mainHolderIntro {
-      flex-direction: row; /* 👈 keep horizontal */
-      align-items: flex-start; /* 👈 avoid centering */
-      text-align: left; /* 👈 keep text aligned left */
-      width: 100%;
-    }
-
-    .mainHolderIntro .textHolder {
-      width: 90%;
-      font-size: 17px;
-      padding: 0;
-    }
-  }
-
-  @media (max-width: 500px) {
-    .mainHolderIntro .textHolder {
-      font-size: 3.5vw;
     }
   }
 </style>

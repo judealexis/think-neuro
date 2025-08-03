@@ -12,33 +12,20 @@
         }}
         class="accordion-header"
       >
-        <div id="btnTxt">{item.question}</div>
-        {#if item.isOpen}
-          <div id="iconWrapper">
-            <svg
-              id="downIcon"
-              fill="#444"
-              viewBox="0 0 24 24"
-              style="transform: rotate(180deg)"
-              xmlns="http://www.w3.org/2000/svg"
-              ><path
-                d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"
-              /></svg
-            >
-          </div>
-        {:else}
-          <div id="iconWrapper">
-            <svg
-              id="downIcon"
-              fill="#444"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              ><path
-                d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"
-              /></svg
-            >
-          </div>
-        {/if}
+        <div class="btn-text">{item.question}</div>
+        <div class="icon-wrapper">
+          <svg
+            class="down-icon"
+            fill="#444"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            style="transform: rotate({item.isOpen ? 180 : 0}deg)"
+          >
+            <path
+              d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"
+            />
+          </svg>
+        </div>
       </button>
 
       <div
@@ -52,61 +39,79 @@
 </main>
 
 <style>
-  #iconWrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-  }
-  #downIcon {
-    object-fit: fill;
-    width: 16px;
-    height: 12px;
-    transform: translate(0, 5px);
-  }
-  #btnTxt {
-    float: left;
-  }
   .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: #f0f0f0;
     color: #444;
     padding: 10px;
     border: none;
     outline: none;
     width: 80%;
-    text-align: left;
     cursor: pointer;
-    margin: 0px;
+    margin: 0;
   }
+
+  .btn-text {
+    flex: 1;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    margin-left: 10px;
+  }
+
+  .down-icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.2s ease;
+  }
+
   .accordion-content {
-    padding: 00px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     line-height: 1.8;
     overflow: hidden;
     width: 80%;
     font-size: 15px;
   }
-  #btnTxt {
-    font-size: 15px;
-  }
+
+  /* Responsive behavior */
   @media (max-width: 800px) {
+    .accordion-header,
+    .accordion-content {
+      width: 100%;
+    }
+
+    .btn-text {
+      font-size: 1.8vw;
+    }
+
     .accordion-content {
       font-size: 1.8vw;
-      width: 100%;
     }
-    #btnTxt {
-      font-size: 1.8vw;
-    }
-    .accordion-header {
-      padding: 10px;
-      width: 100%;
+
+    .down-icon {
+      width: 18px;
+      height: 18px;
     }
   }
+
   @media (max-width: 500px) {
+    .btn-text,
     .accordion-content {
       font-size: 10px;
     }
-    #btnTxt {
-      font-size: 10px;
+
+    .down-icon {
+      width: 16px;
+      height: 16px;
     }
   }
 </style>
