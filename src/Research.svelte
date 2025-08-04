@@ -241,7 +241,7 @@
           `
      εSonia SinghalΕ ρ Ρ
         Undergraduate at the University of Pennsylvania → Returning Summer Intern ρ Ρ
-        Sonia joined the BRI program in the spring of her freshman year at UPenn. Now a rising sophomore, she's returning for a second round, but this time, she’s documenting her journey. Sonia’s 9-part video series walks through each week of the BRI experience, so future interns can get a real sense of how the program is structured. ρ Ρ
+        Sonia joined the BRI program in the spring of her freshman year at UPenn. Now a rising sophomore, she's returning for a second round, but this time, she’s documenting her journey. Sonia’s 6-part video series walks through each week of the BRI experience, so future interns can get a real sense of how the program is structured. ρ Ρ
         ▶️ φhttps://www.youtube.com/watch?v=404HAt-ww3M&list=PL7yaNuHOf2USqfJUnt7CV8xs0A1PtthdKθWatch the full series hereΦ.
           `,
           "left",
