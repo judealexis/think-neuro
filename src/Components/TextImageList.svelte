@@ -58,8 +58,8 @@
   .imageGroup {
     display: flex;
     align-items: center;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
   .imageGroupMulti {
     display: grid;
@@ -71,11 +71,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .textHolder {
-    font-size: 17px;
+    font-size: 19px;
     width: 70%;
   }
   .textHolderIntro {
-    font-size: 17px;
+    font-size: 19px;
     width: 90%;
   }
 
@@ -87,16 +87,16 @@
     .imageGroupMulti {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      width: 200px;
+      width: 220px;
       height: auto;
       row-gap: 10px;
     }
     .textHolder {
-      font-size: 15px;
+      font-size: 18px;
       width: 100%;
     }
     .textHolderIntro {
-      font-size: 15px;
+      font-size: 18px;
       width: 100%;
     }
   }
