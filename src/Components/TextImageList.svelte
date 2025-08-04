@@ -33,7 +33,6 @@
   .textImgListCont {
     display: flex;
     flex-direction: column;
-    padding: 2%;
     row-gap: 15px;
   }
   .textImageHolder {
