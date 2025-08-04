@@ -8,7 +8,7 @@ import{S as $,i as A,s as N,g as G,h as b,j as f,b as g,l as K,t as d,k as B,o a
         λ
         πA graduate-level research εabstractΕΠ
         πA εresearch posterΕ and εoral presentationΕΠ
-        πA εcertificateΕ recognizing their training in bibliometrics and data scienceΠ
+        πA εtechnical certificateΕ recognizing their training in bibliometrics and data scienceΠ
         Λ
 
         The BRI program prepares students to showcase their research at conferences, bolster their academic resumes, 
