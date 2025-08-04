@@ -118,11 +118,11 @@
       width: 240px;
     }
     .textHolder {
-      font-size: 3vw;
+      font-size: 4vw;
       width: 100%;
     }
     .textHolderIntro {
-      font-size: 3vw;
+      font-size: 4vw;
       width: 100%;
     }
   }

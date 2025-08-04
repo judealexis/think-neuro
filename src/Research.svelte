@@ -216,7 +216,7 @@
                    εClarissa ColemanΕ ρ Ρ
         High School Intern → MIT MITES ρ Ρ
         Clarissa joined ThinkNeuro as a high school student with no prior research experience. After completing the Bibliometrics Research Internship, she was accepted to the MITES Semester Program at the Massachusetts Institute of Technology, which is one of the nation’s most prestigious high school research programs with an acceptance rate below 2%. She also went on to secure a research position at Brown University, continuing to build on the foundation she developed through ThinkNeuro. ρ Ρ
-        ▶️ φhttps://www.youtube.com/shorts/-4y6MUDtWt8θWatch her story hereΦ
+        ▶️ φhttps://www.youtube.com/shorts/-4y6MUDtWt8θWatch her story here.Φ
           `,
           "left",
         ],
@@ -232,7 +232,7 @@
         This group testimonial features four undergraduate interns who joined ThinkNeuro with varying levels of prior experience. ρ Ρ ρ Ρ
         Hanna, an incoming freshman at UC Irvine, was invited to join a brain-computer interface lab on campus after exploring the topic through ThinkNeuro. Abraham, an undergraduate at Cal Poly Pomona, will be starting a new computer science research position through his university’s STAR program this fall after his first research exposure through the BRI. Aamiya, a student at UMass Amherst, is applying her new R programming skills in a research role at her university. Syed, an undergraduate at Carnegie Mellon University, credits ThinkNeuro with giving him the confidence and foundation to pursue future research opportunities. ρ Ρ ρ Ρ
         After completing the BRI program, each of them gained the tools, confidence, and direction to take the next step in their academic journey. In this video, they reflect on how ThinkNeuro shaped their research mindset and opened new doors. ρ Ρ
-        ▶️ φhttps://www.youtube.com/shorts/c6fnbhxSWnkθWatch their stories here!Φ
+        ▶️ φhttps://youtube.com/shorts/QoSe3Fc0UMcθWatch their stories here.Φ
           `,
           "left",
         ],
